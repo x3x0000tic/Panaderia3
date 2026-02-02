@@ -1,0 +1,297 @@
+hhtml, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+/*------------------------Header------------------------------*/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.contenedor_enlaces_navegacion {
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.contenedor_logo {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jerarquia_logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-block: 0;
+}
+
+.enlace_logo {
+    text-decoration: none;
+    color: #5b2434;
+}
+
+.enlace {
+    color: #5b2434;
+    font-size: 1rem;
+}
+
+.item_navegacion {
+    margin-left: 1.5rem;
+}
+
+.icono_header {
+    width: 25px;
+}
+
+.icono_header:hover {
+    width: 25px;
+    border-bottom: 1px solid #5b2434;
+}
+
+.item_navegacion:hover {
+    font-weight: bold;
+    color: #5b2434;
+}
+
+.contenedor_gestionar {
+    display: flex;
+    align-items: center;
+}
+
+.contenedor_gestionar:hover .icono_header {
+    width: 25px;
+    border-bottom: 1px solid #5b2434;
+}
+
+.contenedor_gestionar:hover .item_navegacion {
+    font-weight: bold;
+    color: #5b2434;
+}
+
+.contenedor_formulario {
+    width: 20%;
+    min-width: 350px;
+    min-height: 650px;
+    align-self: center;
+    border: 2px solid #a1a1a1;
+    border-radius: 10px;
+    margin-inline: auto;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.adorno_pequeño {
+    width: 30px;
+    margin-bottom: 3px;
+}
+
+.adorno_grande {
+    margin-top: 0;
+    width: 40px;
+    margin-bottom: 3rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subtitulo_formulario {
+    color: #5b2434;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin-bottom: 3px;
+}
+
+.label_input {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: left;
+    color: #b1b1b1;
+    margin-block: 10px;
+}
+
+.pswrd {
+    margin-bottom: 8rem;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #c1c1c1;
+    border-radius: 0%;
+    padding-left: 10px;
+    color: #555;
+}
+
+input:focus {
+    box-shadow: 0 0 5px #5b2434;
+    outline: none;
+}
+
+.boton {
+    background-color: #5b2434;
+    color: #b1b1b1;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.boton:hover {
+    background-color: transparent;
+    color: #5b2434;
+    transition: .7s;
+    border-color: #5b2434;
+}
+
+.enlace_recuperar {
+    font-family: 'arial';
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    text-align: right;
+    margin-block: 1.5rem;
+}
+
+.enlace_navegacion {
+    margin-top: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #b1b1b1;
+}
+
+span {
+    color: #333;
+}
+
+span:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #b1b1b1;
+}
+
+/*------------------------Footer------------------------------*/
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    justify-content: space-between;
+}
+
+.contenedor_decoracion_footer {
+    max-width: 650px;
+    min-width: 400px;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+    flex: 0 1 auto;
+}
+
+.imagen_decorativa {
+    width: 100%;
+}
+
+.texto_footer {
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.contenedor_enlaces_footer {
+    flex: 0 1 15%;
+    min-width: 150px;
+    max-width: 160px;
+    margin-bottom: 1rem;
+    margin-inline: 1rem;
+}
+
+.enlace_footer_importante {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #5b2434;
+    margin-bottom: 0.5rem;
+}
+
+.enlace_footer {
+    color: #444;
+    font-weight: 300;
+    font-size: 1rem;
+    display: block;
+    margin-top: 1rem;
+}
+
+.contenedor_redes_sociales {
+    display: flex;
+    flex: 0 1 15%;
+    flex-direction: column;
+    align-items: center;
+    max-width: 160px;
+}
+
+.contenedor_iconos_redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.img_footer {
+    width: 25px;
+    margin: 0 0.5rem;
+}
+
+.enlace_footer:hover {
+    color: #c1c1c1;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .decoracion_footer {
+        flex: 1 1 30%;
+    }
+
+    .enlaces_footer {
+        flex: 1 1 20%;
+        margin-left: 10px;
+    }
+
+    .redes_sociales {
+        flex: 1 1 20%;
+    }
+}
+/* Estilo para la imagen logo que se ajusta a diferentes tamaños de pantalla *
